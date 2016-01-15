@@ -1,7 +1,9 @@
 #!/bin/bash
+# Program takes in a block of CSS codes for one property (do not include the curvy braces in input),
+# and then alphabetizing the propertie list and outputs in a 4-space tab format.
 
 # Get input
-echo Enter list on one line, seperated by semi-colon, followed by ENTER and CTR-D:
+echo Enter list of css code, seperated by semi-colon, followed by ENTER and CTR-D:
 OIFS=$IFS
 IFS=";"
 input=$(cat)
