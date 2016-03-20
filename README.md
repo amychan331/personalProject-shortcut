@@ -9,3 +9,8 @@
 * Language: Python
 * Use: Take in an input file, identifier, delimiter, and output file. Use identifier to search for matched lines in input file, then output substrings after the delimiter into an output file.
 * Reason: I was working through the book "Arduino Workshop", and I wanted to look into the projects in advanced so I can purchase the required materials. The book's content list was too long for me to manually search and type out all the projects there are.
+
+<strong>list_network_sites</strong>
+* PHP in Wordpress environment
+* Use: A Wordpress plugin that, when developer uses the shortcode, will generate a linked list of all the sites in the Multisite network. Depending on attribute used, the list may be ordered or unordered. The default is unordered. 
+* Reason: I was working a school assignment about Wordpress Multisite, where I was to create a url list of all the sites in the Multisite network. But then I thought of how people would actually use a site list in the real world. I ended up creating site list dynamically instead of creating a static list by manually typing the data in. There are existing plugin already, but I was learning shortcode, may as well practice. Just for fun, I added the option to list unordered or ordered.
